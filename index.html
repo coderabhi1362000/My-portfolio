@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">My portfolio</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutme.html">About Me</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="Contactme.html">Contact Me</a></li>
+            <li><a href="#">Resume</a></li>
+        </ul>
+
+    </div>
+    <div class="firstsection">
+        <div class="leftsection">
+            <h3 class="line1">Hi, my name is</h3>
+            <h1 class="line2">Abhinav Tripathi.</h1>
+            <h2 class="line3">I am a</h2>
+            <span id="element"></span>
+            <br>
+            <div class="info1">
+                <span>I am a Mechanical Engineer based in India.</span>
+                <br>
+                <span>I like to build things for the web. Currently, I am </span>
+                <br>
+                <span> looking for job opportunities.</span>
+            </div>
+            
+        </div>
+        <div class="rightsection">
+            <img src="mypng.png" alt="randomimage" class="myimage">
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Java Developer', 'Data Analyst.'],
+          typeSpeed: 50,
+        });
+      </script>
+    <footer>
+        <div id="footerinfo">All rights reserved</div>
+    </footer>
+</body>
+
+</html>

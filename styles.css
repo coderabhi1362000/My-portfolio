@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 33);
+    
+    
+    
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(18, 18, 62);
+    
+}
+.navbar ul li a:hover{
+    color: rgb(145, 145, 236);
+    font-size: 1.03rem;
+    
+}
+.logo{
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 15px;
+    background-color: rgb(18, 18, 62);
+    color: whitesmoke;
+    font-family:Snell Roundhand, cursive;
+    font-weight: 300;
+}
+ul{
+    
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    margin-top: 15px;
+    background-color: rgb(18, 18, 62);
+
+    
+    
+}
+li{
+    margin-right: 20px;
+    list-style-type: none;
+    background-color: rgb(18, 18, 62);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    
+   
+}
+a{
+    background-color: rgb(18, 18, 62);
+    text-decoration: none;
+    color: whitesmoke;
+    
+    
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+.leftsection{
+    width: 30%;
+    margin-left: 45px;
+    
+}
+.line1{
+    font-size: 36px;
+    color: white;
+}
+.line2{
+    font-size: 53px;
+    color: rgb(144, 60, 228);
+}
+.line3{
+    font-size: 40px;
+    color: antiquewhite;
+}
+#element{
+    font-size: 42px ;
+    color: rgb(144, 60, 228);
+    font-style: italic;
+}
+.info1{
+    font-size: 15px;
+    color: rgb(148, 142, 142);
+    font-weight: 500;
+    margin-top: 35px;
+    line-height: 20px;
+   
+}
+.rightsection{
+    width: 30%;
+    margin-right: 30px;
+}
+.myimage{
+    padding: auto;
+    margin: auto;
+}
+#footerinfo{
+    display: flex;
+    height: 275px;
+    align-items: flex-end;
+    color: white;
+    margin-left: 18px;
+}
+.Introduction{
+    color: rgb(193, 193, 240);
+    font-weight: 200;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Picture{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.mypicture{
+    width: 400 px;
+    height: 400px;
+    padding-top: 25px;
+}
+.PageTitle{
+    margin-top: 10px;
+    margin-right: 60px;
+    font-size: 35px;
+   
+    color: whitesmoke;
+    font-family:Snell Roundhand, cursive;
+    font-weight: 300;
+    text-align: end;
+    text-shadow: 2px 2px 2px rgb(220, 206, 233);
+    
+}
+.skilltitle{
+    margin-left: 60px;
+    font-size: 22px;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-family:Snell Roundhand, cursive;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: rgb(199, 157, 238);
+    text-shadow: 1px 1px 2px rgb(220, 206, 233);
+    
+}
+div.data{
+    font-size: 17px;
+    color: rgb(217, 209, 240);
+    font-weight: 300;
+    margin-left: 60px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 5px;
+    
+}
+hr{
+   
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid rgb(124, 143, 252);
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.contact{
+    font-size: 25px;
+    color: rgb(217, 209, 240);
+    margin-top: 25px;
+    margin-right: 50px;
+    text-align: end;
+    line-height: 28px;
+    
+}
+.prolink{
+    font-size: 18px;
+    color: rgb(2, 0, 136);
+    font-weight: 350;
+    margin-left: 60px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 16px;
+    background-color: rgb(109, 177, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
